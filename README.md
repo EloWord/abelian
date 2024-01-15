@@ -1,21 +1,20 @@
+<img width="1232" alt="Capture d’écran 2024-01-15 à 23 31 37" src="https://github.com/EloWord/abelian/assets/155255722/1ced09e8-a003-47aa-952d-3ce40999e3e0">
 
-![Capture d’écran 2024-01-15 à 17 27 16](https://github.com/EloWord/abelian/assets/155255722/34242d71-2729-4baa-8782-c280fb9ee8f5)
-
-
-Version 1.8.4 Fix 4:
+Version 1.8.4 Release:
 
 - Added support for Abelian mining with Hive Os custom flightsheet
-- Added first support of mining pool :  https://www.abelpool.io/ & https://www.zkprovers.com/
+- Added support of mining pool :  https://www.abelpool.io/ & https://www.zkprovers.com/
+- Resolved the GLIBC version issue. There is no longer a need to update GLIBC; HiveOS Beta 20.04 is sufficient^^
+- Fixed nvtool command runing issue at start
+- Resolved a bug causing GPU hashrate 'offset' in the HiveOS web UI when an iGPU is present.
+- Addressed compatibility issues
+- Resolved problems encountered during startup
+- Added a check for the 'abelian' command parameter format.
 
-- Fix3 release: fixe nvtool command runing at start
-- Fix4 release: 
-         - Added new pool support : https://www.zkprovers.com
-         - Addressed compatibility issues, resolved problems encountered during startup
-         - Added a check for the 'abelian' command parameter format."
-         - Resolved the GLIBC version issue. There is no longer a need to update GLIBC; HiveOS Beta 20.04 is sufficient^^
-         - Use now in flighsheet: https://github.com/EloWord/abelian/releases/download/v1.8.4abel/eloword-v1.8.4abelfix4.tar.gz
+Use now in flighsheet: https://github.com/EloWord/abelian/releases/download/v1.8.4abel/eloword-v1.8.4.tar.gz
 
 ****** Stay tuned for the next update - coming soon! *******
+<br>
 
 |          | Links                               |
 |----------------------|------------------------------------|
@@ -57,7 +56,7 @@ Thank you for being part of this journey!
 - this version is tested on `https://www.abelpool.io` and `https://www.zkprovers.com` soon other pools will be supported
 
 - it's a gpu custom miner nvidia/amd, check out the example flightsheets below for seamless setup :
-https://github.com/EloWord/abelian/releases/download/v1.8.4abel/eloword-v1.8.4abelfix4.tar.gz
+https://github.com/EloWord/abelian/releases/download/v1.8.4abel/eloword-v1.8.4.tar.gz
 
 - Drop in the flightsheet the pool command line juste like that:
 ```"abelian":"curl -sSL  https://download.abelpool.io/cmd_global/allinone_ctl.sh  | bash -s start  YOUROWNTOKEN"```
